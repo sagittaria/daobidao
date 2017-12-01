@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sagittaria</groupId>
+  <artifactId>daobidao</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>daobidao Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>daobidao</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.4.8.v20171121</version>
+        <!-- 看控制台回显，为了正常用stop功能，似乎
+             得配置 stopKey和stopPort两个参数？否则只能按右上角红色停止键
+
+        [ERROR] Failed to execute goal org.eclipse.jetty:jetty-maven-plugin:9.4.8.v20171121:stop (default-cli) on project daobidao: The parameters 'stopKey', 'stopPort' for goal org.eclipse.jetty:jetty-maven-plugin:9.4.8.v20171121:stop are missing or invalid -> [Help 1]
+
+        -->
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
