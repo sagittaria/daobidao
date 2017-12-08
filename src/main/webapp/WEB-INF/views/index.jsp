@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>叨逼叨</title>
+    <title>Daobidao</title>
 </head>
 <body>
-<h3>Daobidao</h3>
+<h3>Spittr</h3>
 welcome, buddy.
 </body>
 </html>
