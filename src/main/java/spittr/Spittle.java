@@ -6,7 +6,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import java.util.Date;
 
 public class Spittle {
-    private long id;
+    private Long id;
     private String message;
     private Date time;
 
