@@ -1,3 +1,4 @@
+/*
 package spittr.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
@@ -18,3 +19,4 @@ public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherS
         return new Class<?>[]{WebConfig.class};
     }
 }
+*/

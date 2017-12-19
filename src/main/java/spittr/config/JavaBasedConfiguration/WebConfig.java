@@ -1,3 +1,4 @@
+/*
 package spittr.config;
 
 import org.springframework.context.annotation.Bean;
@@ -58,3 +59,4 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         configurer.enable(); // 配置静态资源的处理--实际上没懂这句注释
     }
 }
+*/
